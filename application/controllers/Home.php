@@ -12,9 +12,4 @@ class Home extends CI_Controller {
 		$this->load->view('home/home_index.php',$data);
 		$this->load->view('template/footer.php',$data);
 	}
-
-	public function dx()
-	{
-		$this->load->view('welcome_message');
-	}
 }

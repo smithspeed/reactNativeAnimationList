@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, materialpro admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, materialpro admin lite design, materialpro admin lite dashboard bootstrap 5 dashboard template">
-    <meta name="description"
-        content="Material Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="robots" content="noindex,nofollow">
-    <title>AutoBot</title>
+    <title>BigCoin</title>
    
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<?=base_url()?>assets/images/favicon.png">
@@ -68,7 +66,7 @@
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <span style="font-size:30px; color: #fff; font-weight:bolder">AutoBot</span>
+                            <span style="font-size:30px; color: #fff; font-weight:bolder">BigCoin</span>
                         </span>
                     </a>
                     <!-- ============================================================== -->
@@ -136,23 +134,18 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <!-- User Profile-->
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="<?=site_url()?>" aria-expanded="false"><i class="mdi me-2 mdi-gauge"></i><span
-                                    class="hide-menu">Dashboard</span></a></li>
-
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="<?=site_url('bots')?>" aria-expanded="false">
-                                <i class="mdi me-2 mdi-account-check"></i><span class="hide-menu">Bots</span></a>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?=site_url()?>" aria-expanded="false">
+                                <i class="mdi me-2 mdi-gauge"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
                         </li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="<?=site_url('group')?>" aria-expanded="false">
-                                <i class="mdi me-2 mdi-send"></i><span class="hide-menu">Group</span></a>
-                        </li>
-
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="<?=site_url('message')?>" aria-expanded="false">
-                                <i class="mdi me-2 mdi-send"></i><span class="hide-menu">Message</span></a>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?=site_url('votes')?>" aria-expanded="false">
+                                <i class="mdi me-2 mdi-account-check"></i>
+                                <span class="hide-menu">Votes</span>
+                            </a>
                         </li>
 
                     </ul>
@@ -165,8 +158,9 @@
                 <div class="row">
                     <div class="col-4 link-wrap">
                         <!-- item-->
-                        <a href="" class="link" data-toggle="tooltip" title="" data-original-title="Settings"><i
-                                class="ti-settings"></i></a>
+                        <a href="" class="link" data-toggle="tooltip" title="" data-original-title="Settings">
+                            <i class="ti-settings"></i>
+                        </a>
                     </div>
                     <!-- <div class="col-4 link-wrap">
                         
