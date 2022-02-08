@@ -12,13 +12,10 @@ class Middleware{
         $this->ci =& get_instance();
         $this->controller = $this->ci->router->fetch_class();
         $this->method = $this->ci->router->fetch_method();
-        $this->isLoggedIn = ($this->ci->session->userdata('username')=='') ? true : true;
+        $this->isLoggedIn = ($this->ci->session->userdata('username')=='') ? false : true;
     }
 
     public function checkPermission(){
-
-        //echo $this->controller;
-        //die();
 
         if($this->controller=='login' && $this->isLoggedIn){
             redirect('home');

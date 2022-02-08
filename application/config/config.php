@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 if(ENV=='development'){
-	$config['base_url'] = $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/watcherGuru/admin/";
+	$config['base_url'] = $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/bigCoinAdmin/";
 }	
 else{
 	$config['base_url'] = $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/admin/";
