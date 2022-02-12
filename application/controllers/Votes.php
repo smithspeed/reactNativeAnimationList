@@ -69,6 +69,8 @@ class Votes extends CI_Controller
 
             $obj->is_active = '1';
 
+			$obj->voted_by = 'ADMIN';
+
             $incVotes[] = $obj;
         }
 
