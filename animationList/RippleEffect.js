@@ -1,0 +1,40 @@
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import Ripple from '../components/Ripple'
+
+const RippleEffect = () => {
+    return (
+        <View style={styles.container}>
+            <Ripple style={styles.ripple} onTap={() => {
+                'worklet';
+                //console.log('tap');
+            }}>
+                <Text style={{fontSize:25}}>Tap</Text>
+            </Ripple>
+        </View>
+    )
+}
+
+export default RippleEffect;
+
+const styles = StyleSheet.create({
+    container : {
+        flex : 1,
+        alignItems : 'center',
+        justifyContent : 'center'
+    },
+    ripple : {
+        width : 200,
+        height : 200,
+        backgroundColor : 'white',
+        alignItems:'center',
+        justifyContent : 'center',
+        //IOS
+        shadowOpacity : 0.2,
+        shadowOffset : {width : 0, height : 0},
+        shadowRadius : 20,
+        //Android
+        elevation : 4
+
+    }
+});
